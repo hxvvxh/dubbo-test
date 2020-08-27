@@ -1,4 +1,4 @@
-package com.hp.dubbo.test.provider.api;
+package com.hp.dubbo.test.api;
 
 /**
  * @author hp

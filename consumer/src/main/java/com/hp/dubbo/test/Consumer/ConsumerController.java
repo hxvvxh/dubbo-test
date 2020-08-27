@@ -1,4 +1,4 @@
-package com.hp.dubbo.test.consumer;
+package com.hp.dubbo.test.Consumer;
 
 /**
  * @author hp
