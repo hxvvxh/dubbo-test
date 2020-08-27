@@ -1,10 +1,14 @@
 package com.hp.dubbo.test.provider;
-import com.hp.dubbo.test.provider.api.HpService;
+
+import com.hp.dubbo.test.api.HpService;
+import org.apache.dubbo.config.annotation.Service;
+
 /**
  * @author hp
  * @version 1.0
  * @date 2020/8/27 21:48
  */
+@Service(version = "1.0.0",interfaceClass = HpService.class)
 public class HpServiceImpl implements HpService {
 
 
