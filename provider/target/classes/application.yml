@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dubbo_auto_configuration_provider_demo
+dubbo:
+  application:
+    name: dubbo_provider
+  registry:
+    protocol: zookeeper
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.hp.dubbo.test
+server:
+  port: 9292

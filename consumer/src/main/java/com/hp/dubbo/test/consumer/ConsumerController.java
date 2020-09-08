@@ -2,6 +2,8 @@ package com.hp.dubbo.test.consumer;
 
 import com.hp.dubbo.test.api.HpAutoService;
 import com.hp.dubbo.test.api.HpService;
+import com.hp.dubbo.test.spi.interfaces.HPSPI;
+import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -33,5 +35,19 @@ public class ConsumerController {
     @ResponseBody
     public String getAuto(@RequestParam("sa") String say){
         return hpAutoService.test(say);
+    }
+
+    @GetMapping(value = "/defaultSPI")
+    @ResponseBody
+    public String getDefaultSPI(){
+        HPSPI hpspi=ExtensionLoader.getExtensionLoader(HPSPI.class).getDefaultExtension();
+        return hpspi.name();
+    }
+
+    @GetMapping(value = "/notDefaultSPI")
+    @ResponseBody
+    public String getNotDefaultSPI(){
+        HPSPI hpspi=ExtensionLoader.getExtensionLoader(HPSPI.class).getExtension("notdefault");
+        return hpspi.name();
     }
 }
