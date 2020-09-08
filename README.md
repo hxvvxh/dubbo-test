@@ -1,6 +1,6 @@
 # dubbo-test
 
-    h的dubbo 学习
+    hp的dubbo 学习
     本地启动：
     (1)修改provider模块application.yml文件中zookeeper地址(zookeeper的默认地址为：127.0.0.1:2181)
     (2)修改consumer模块application.yml文件中zookeeper地址(zookeeper的默认地址为：127.0.0.1:2181)
