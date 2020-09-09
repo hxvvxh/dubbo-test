@@ -13,7 +13,7 @@ git add .
 
 if [ ! -n  "$message" ];
 then
-    git commit -a -m "commit push branch ${branch} of version ${version}"
+    git commit -a -m "push branch ${branch} of version ${version}"
 else
     git commit -a -m "${message}"
 fi
