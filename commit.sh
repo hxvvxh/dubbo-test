@@ -2,6 +2,8 @@
 
 set -x
 
+message=$1
+
 result=`git branch | grep "*"`
 branch=${result:2}
 
@@ -9,7 +11,12 @@ version=$(mvn -q -N -Dexec.executable="echo"  -Dexec.args='${project.version}'  
 
 git add .
 
-git commit -a -m "commit push branch ${branch} of version ${version}"
+if [ ! -n  "$message" ];
+then
+    git commit -a -m "${message}"
+else
+    git commit -a -m "commit push branch ${branch} of version ${version}"
+fi
 
 git push origin ${branch}
 
