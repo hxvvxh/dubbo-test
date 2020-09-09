@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeda7f29-878c-437d-bb4d-b41dad5d4911" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commit.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apache-normal/api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commit.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -252,10 +237,18 @@
       <workItem from="1599399915878" duration="1543000" />
       <workItem from="1599570094892" duration="2239000" />
     </task>
+    <task id="LOCAL-00001" summary="sh commit">
+      <created>1599660832558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599660832558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11175000" />
+    <option name="totallyTimeSpent" value="11323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
@@ -277,13 +270,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40482575" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46782842" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,6 +331,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sh commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/provider.java" />
@@ -627,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commit.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build-version.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -659,6 +649,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commit.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
