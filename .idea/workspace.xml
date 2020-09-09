@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeda7f29-878c-437d-bb4d-b41dad5d4911" name="Default Changelist" comment="" />
+    <list default="true" id="aeda7f29-878c-437d-bb4d-b41dad5d4911" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-normal/provider/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/provider/target/" />
     <ignored path="$PROJECT_DIR$/consumer/target/" />
+    <ignored path="$PROJECT_DIR$/apache-normal/target/" />
+    <ignored path="$PROJECT_DIR$/apache-normal/api/target/" />
+    <ignored path="$PROJECT_DIR$/apache-normal/consumer/target/" />
+    <ignored path="$PROJECT_DIR$/apache-normal/provider/target/" />
+    <ignored path="$PROJECT_DIR$/apache-springboot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,27 +51,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="56">
-                <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/apache-normal/api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -69,7 +85,6 @@
         <option value="$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpService.java" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/provider.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/ConsumerController.java" />
@@ -94,6 +109,12 @@
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/apache-normal/api/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-normal/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-normal/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/apache-normal/pom.xml" />
+        <option value="$PROJECT_DIR$/commit.sh" />
       </list>
     </option>
   </component>
@@ -124,149 +145,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-test" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-test-apache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-test-apache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +168,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dubbo/dubbo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -286,11 +177,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\dubbo\my\dubbo-test-apache\apache-normal" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hp.dubbo.test.consumer.autoconfigration" />
       <recent name="com.hp.dubbo.test.autoconfigration" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\dubbo\my\dubbo-test-apache" />
       <recent name="E:\workspace\dubbo\my\dubbo-test\consumer\src\main\resources" />
       <recent name="E:\workspace\dubbo\my\dubbo-test\provider\src\main\resources\META-INF" />
     </key>
@@ -360,13 +255,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10328000" />
+    <option name="totallyTimeSpent" value="11175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30209792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31538463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +277,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.40482575" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40482575" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -446,35 +341,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/provider.java" />
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/HpServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/dubbo-test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -485,7 +356,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpService.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -506,7 +377,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/api/src/main/java/com/hp/dubbo/test/api/HpAutoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
@@ -528,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
@@ -538,7 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/HpAutoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
@@ -563,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/provider/autoconfigration/HpAutoConfigration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
@@ -573,21 +444,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/autoconfigration/HpAutoConfigration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/java/com/hp/dubbo/test/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
@@ -629,62 +500,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/das.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/das.java" />
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/interfaces/HPSPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/dubbo/internal/com.hp.dubbo.test.spi.interfaces.HPSPI">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="10" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/service.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2044">
-          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/service.java" />
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/SpiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
@@ -696,7 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
@@ -706,7 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/notDefaultHpSPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
@@ -717,7 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/spi/impl/defaultHpSPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
@@ -729,7 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/src/main/java/com/hp/dubbo/test/consumer/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="29" />
@@ -746,6 +600,65 @@
             <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-normal/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-test.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-normal/provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commit.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-version.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-normal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache-normal/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
