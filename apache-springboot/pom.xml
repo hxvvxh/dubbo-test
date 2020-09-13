@@ -37,6 +37,20 @@
                         <phase>package</phase>
                         <goals>
                             <goal>hp</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>com.hp.plugin</groupId>
+                <artifactId>hp-message-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <!-- 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy -->
+                        <phase>package</phase>
+                        <goals>
                             <goal>Message</goal>
                         </goals>
                     </execution>
