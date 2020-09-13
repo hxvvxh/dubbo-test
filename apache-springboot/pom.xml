@@ -11,5 +11,39 @@
 
     <artifactId>apache-springboot</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.hp.plugin</groupId>
+                <artifactId>hpHello-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <!-- 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy -->
+                        <phase>package</phase>
+                        <goals>
+                            <goal>hp</goal>
+                        </goals>
+                    </execution>
+                </executions>
+<!--                <configuration>-->
+<!--                    <say>hello say</say>-->
+<!--                </configuration>-->
+            </plugin>
+        </plugins>
+    </build>
 </project>
