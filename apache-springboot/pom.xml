@@ -37,12 +37,15 @@
                         <phase>package</phase>
                         <goals>
                             <goal>hp</goal>
+                            <goal>Message</goal>
                         </goals>
                     </execution>
                 </executions>
-<!--                <configuration>-->
-<!--                    <say>hello say</say>-->
-<!--                </configuration>-->
+                <configuration>
+                    <branch>master</branch>
+                    <!-- token 不能放到pom 文件中，应该在CI/CD 的时候以构建参数传入 -DMessage.token=xxx-->
+                    <token>xxx</token>
+                </configuration>
             </plugin>
         </plugins>
     </build>
