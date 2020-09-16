@@ -58,7 +58,8 @@
                 <configuration>
                     <branch>master</branch>
                     <!-- token 不能放到pom 文件中，应该在CI/CD 的时候以构建参数传入 -DMessage.token=xxx-->
-                    <token>xxx</token>
+                    <!--测试的只读token -->
+                    <token>34bd755a6a9e4935e84ac5ba84f1f812a3b789b9</token>
                 </configuration>
             </plugin>
         </plugins>
