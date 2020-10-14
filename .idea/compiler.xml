@@ -10,7 +10,6 @@
         <module name="api" />
         <module name="provider" />
         <module name="apache-springboot" />
-        <module name="apache-normal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

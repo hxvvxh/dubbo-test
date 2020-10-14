@@ -4,7 +4,7 @@ import com.hp.dubbo.test.api.HpAutoService;
 import com.hp.dubbo.test.api.HpService;
 import com.hp.dubbo.test.spi.interfaces.HPSPI;
 import org.apache.dubbo.common.extension.ExtensionLoader;
-import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConsumerController {
 
-    @Reference(version = "1.0.0")
+//    @Reference(version = "1.0.0")//2.7.3
+    @DubboReference(version = "1.0.0")//2.7.8
     private HpService hpService;
 
     @Autowired
