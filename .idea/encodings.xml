@@ -7,6 +7,9 @@
     <file url="file://$PROJECT_DIR$/apache-normal/consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-normal/provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-springboot/springboot-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-springboot/springboot-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache-springboot/springboot-provider" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

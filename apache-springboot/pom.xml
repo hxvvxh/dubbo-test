@@ -11,6 +11,12 @@
 
     <artifactId>apache-springboot</artifactId>
 
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-api</module>
+        <module>springboot-provider</module>
+        <module>springboot-consumer</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -24,44 +30,79 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.7.8</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp</groupId>
+            <artifactId>springboot-api</artifactId>
+        </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.hp.plugin</groupId>
-                <artifactId>hpHello-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
-                <executions>
-                    <execution>
-                        <!-- 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy -->
-                        <phase>package</phase>
-                        <goals>
-                            <goal>hp</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
 
-            <plugin>
-                <groupId>com.hp.plugin</groupId>
-                <artifactId>hp-message-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
-                <executions>
-                    <execution>
-                        <!-- 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy -->
-                        <phase>package</phase>
-                        <goals>
-                            <goal>Message</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <branch>master</branch>
-                    <!-- token 不能放到pom 文件中，应该在CI/CD 的时候以构建参数传入 -DMessage.token=xxx-->
-                    <!--测试的只读token -->
-                    <token>34bd755a6a9e4935e84ac5ba84f1f812a3b789b9</token>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.hp</groupId>
+                <artifactId>springboot-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR3</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.1.RELEASE</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>com.hp.plugin</groupId>-->
+<!--                <artifactId>hpHello-maven-plugin</artifactId>-->
+<!--                <version>1.0-SNAPSHOT</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        &lt;!&ndash; 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy &ndash;&gt;-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>hp</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+
+<!--            <plugin>-->
+<!--                <groupId>com.hp.plugin</groupId>-->
+<!--                <artifactId>hp-message-maven-plugin</artifactId>-->
+<!--                <version>1.0-SNAPSHOT</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        &lt;!&ndash; 作用域，表示在package阶段之后的作用域才会生效：package,compile,install,deploy &ndash;&gt;-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>Message</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--                <configuration>-->
+<!--                    <branch>master</branch>-->
+<!--                    &lt;!&ndash; token 不能放到pom 文件中，应该在CI/CD 的时候以构建参数传入 -DMessage.token=xxx&ndash;&gt;-->
+<!--                    &lt;!&ndash;测试的只读token &ndash;&gt;-->
+<!--                    <token>34bd755a6a9e4935e84ac5ba84f1f812a3b789b9</token>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 </project>

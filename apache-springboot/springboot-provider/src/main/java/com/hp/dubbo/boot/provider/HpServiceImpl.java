@@ -1,4 +1,5 @@
-package com.hp.dubbo.test.provider;
+package com.hp.dubbo.boot.provider;
+
 
 import com.hp.dubbo.boot.api.HpService;
 import org.apache.dubbo.config.annotation.DubboService;

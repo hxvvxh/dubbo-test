@@ -1,10 +1,9 @@
-package com.hp.dubbo.test.provider.autoconfigration;
+package com.hp.dubbo.boot.consumer.autoconfigration;
 
 import com.hp.dubbo.boot.api.HpAutoService;
-import com.hp.dubbo.test.provider.HpAutoServiceImpl;
 import org.apache.dubbo.config.ApplicationConfig;
+import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.RegistryConfig;
-import org.apache.dubbo.config.ServiceConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,16 +14,13 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class HpAutoConfigration {
-
-
     @Bean
-    public ServiceConfig<HpAutoService> hpAutoServiceServiceConfig(){
-        ServiceConfig<HpAutoService> config=new ServiceConfig<>();
-        config.setApplication(new ApplicationConfig("dubbo_provider"));
+    public HpAutoService hpAutoServiceServiceConfig(){
+        ReferenceConfig<HpAutoService> config=new ReferenceConfig<>();
+        config.setApplication(new ApplicationConfig("dubbo_consumer"));
         config.setRegistry(new RegistryConfig("zookeeper://127.0.0.1:2181"));
         config.setInterface(HpAutoService.class);
-        config.setRef(new HpAutoServiceImpl());
-        config.export();
-        return config;
+        HpAutoService hpAutoService=config.get();
+        return hpAutoService;
     }
 }

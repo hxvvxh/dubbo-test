@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer" />
+        <module name="springboot-provider" />
         <module name="api" />
         <module name="provider" />
-        <module name="apache-springboot" />
+        <module name="springboot-api" />
+        <module name="springboot-consumer" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer (1)" target="1.8" />
       <module name="consumer-redis" target="1.8" />
+      <module name="provider (1)" target="1.8" />
       <module name="provider-redis" target="1.8" />
       <module name="redis-config" target="1.8" />
       <module name="zookeeper-config" target="1.8" />
@@ -25,7 +29,12 @@
       <module name="apache-springboot" options="-parameters" />
       <module name="api" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="consumer (1)" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="provider (1)" options="-parameters" />
+      <module name="springboot-api" options="" />
+      <module name="springboot-consumer" options="-parameters" />
+      <module name="springboot-provider" options="-parameters" />
     </option>
   </component>
 </project>

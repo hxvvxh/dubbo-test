@@ -1,8 +1,8 @@
-package com.hp.dubbo.test.consumer;
+package com.hp.dubbo.boot.consumer;
 
 import com.hp.dubbo.boot.api.HpAutoService;
 import com.hp.dubbo.boot.api.HpService;
-import com.hp.dubbo.test.spi.interfaces.HPSPI;
+import com.hp.dubbo.boot.spi.interfaces.HPSPI;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.beans.factory.annotation.Autowired;

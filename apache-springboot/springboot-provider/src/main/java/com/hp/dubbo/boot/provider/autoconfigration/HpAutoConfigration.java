@@ -1,7 +1,7 @@
-package com.hp.dubbo.test.provider.autoconfigration;
+package com.hp.dubbo.boot.provider.autoconfigration;
 
 import com.hp.dubbo.boot.api.HpAutoService;
-import com.hp.dubbo.test.provider.HpAutoServiceImpl;
+import com.hp.dubbo.boot.provider.HpAutoServiceImpl;
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.RegistryConfig;
 import org.apache.dubbo.config.ServiceConfig;

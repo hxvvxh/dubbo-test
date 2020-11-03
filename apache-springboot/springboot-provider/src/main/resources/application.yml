@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hp-provoder
+dubbo:
+  application:
+    name: dubbo_provider
+  registry:
+    protocol: nacos
+    address: nacos://192.168.1.8:8848
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.hp.dubbo.boot
+server:
+  port: 9292

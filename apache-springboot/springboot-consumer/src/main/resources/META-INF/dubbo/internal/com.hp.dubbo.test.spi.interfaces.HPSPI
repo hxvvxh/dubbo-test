@@ -1,0 +1,2 @@
+default=com.hp.dubbo.test.spi.impl.defaultHpSPI
+notdefault=com.hp.dubbo.test.spi.impl.notDefaultHpSPI
